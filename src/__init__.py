@@ -7,6 +7,7 @@ from .transformer_block import FeedForward, TransformerBlock
 from .gpt_model import GPTConfig, GPTModel, GPT_CONFIGS
 from .dataset import TextDataset, create_dataloaders
 from .train import train, load_checkpoint, get_device
+from .generate import generate
 
 __all__ = [
     "Tokenizer",
@@ -24,4 +25,5 @@ __all__ = [
     "train",
     "load_checkpoint",
     "get_device",
+    "generate",
 ]
